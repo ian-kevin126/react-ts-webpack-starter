@@ -1,4 +1,4 @@
-import { Button, Spin } from 'antd'
+import { Spin } from 'antd'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import 'antd/dist/antd.css'
 import { Suspense } from 'react'
