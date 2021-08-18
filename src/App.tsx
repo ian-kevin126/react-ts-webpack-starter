@@ -8,7 +8,7 @@ import { IRoute } from './router/config'
 const App: React.FC = () => {
   return (
     <Suspense fallback={<Spin size="large" className="layout__loading" />}>
-      <div>111</div>
+      <div>222</div>
       <Router basename={config.BASENAME}>
         <Switch>
           {[].map((route: IRoute) => (
